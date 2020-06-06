@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import HeaderA from "./HeaderA";
+import HeaderB from "./HeaderB"
+import FooterA from "./FooterA";
+import FooterB from "./FooterB"
 import BodyA from "./BodyA";
 import BodyB from "./BodyB";
 import "../styles/App.css";
@@ -19,16 +21,21 @@ export default function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Experiment ref={experiment} name="HourKeeeperExperiment">
-        <Variant name="control">
-          <BodyA />
-        </Variant>
-        <Variant name="variant">
-          <BodyB />
-        </Variant>
-      </Experiment>
-      <Footer />
+      <HeaderA />
+      <BodyA />
+      <FooterA />
+      {/*<Experiment ref={experiment} name="HourKeeeperExperiment">*/}
+      {/*  <Variant name="control">*/}
+      {/*<HeaderA />*/}
+      {/*<BodyA />*/}
+      {/*<FooterA />*/}
+      {/*  </Variant>*/}
+      {/*  <Variant name="variant">*/}
+      {/*<HeaderB />*/}
+      {/*<BodyB />*/}
+      {/*<FooterB />*/}
+      {/*  </Variant>*/}
+      {/*</Experiment>*/}
     </div>
   );
 }
