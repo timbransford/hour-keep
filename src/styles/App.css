@@ -9,6 +9,7 @@ body, html {
 
 body {
   color: gainsboro;
+  font-family: 'Merriweather', Helvetica, sans-serif;
 }
 
 .App {
@@ -16,14 +17,15 @@ body {
 }
 
 .app-name-text {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.4em;
+  color: darkslateblue;
 }
 
 .app-body {
   padding: 8%;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .app-image {
@@ -33,11 +35,13 @@ body {
 
 
 header {
-  padding: 5%;
+  font-family: 'Roboto', Times, serif;
+  padding: 2%;
+  font-weight: 900;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 2em;
-  color: gainsboro;
+  color: darkslateblue;
 }
 
