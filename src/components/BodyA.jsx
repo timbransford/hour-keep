@@ -9,8 +9,7 @@ function BodyA() {
             <img class="app-image img-responsive" alt="ship on dock" 
               src="https://res.cloudinary.com/hblxshr0j/image/upload/v1591473551/hour-keep/Ship_jvkrjc.jpg" />
             <div class="carousel-caption">
-              <p><span class="app-name-text">Got Your Hours?</span><br/>
-              is a new app built with<br/><span class="underline">dockworkers</span> in mind.
+              <p>A new app built with<br/><span class="underline">dockworkers</span> in mind.
               </p>
               
             </div>
