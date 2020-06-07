@@ -21,7 +21,7 @@ function BodyA() {
           <div class="col-lg-8 col-md-10">
               <p>You will be amazed at how simple it is to use.  Track your
                 paycheck and benefit hours quickly and securely. 
-               Be one of the first to find how <span class="app-name-text">Got Your Hours?</span> life.</p>
+               Be one of the first to find how <span class="app-name-text">Got Your Hours?</span> can benefit you.</p>
           </div>
         </div>
       </div>
